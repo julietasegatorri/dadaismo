@@ -1,0 +1,101 @@
+<!doctype html>
+<link rel="stylesheet" href="../CSS/estilos.css">
+
+<html>
+<head>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../IMG/LOGO DADAISMO.png"/></a>
+        <a href="#" class="icono" onclick="MiFuncion()"> 
+        <i class="fa fa-bars"></i> </a>
+ 
+        <nav id="navegador" class="">
+
+            <ul>
+                <il><a href="../PAGES /obras.html">obras</a></il>
+                <il><a href="../PAGES /galeria.html"> galerias</a></il>
+                <il><a href="../PAGES /libros.html"> libros</a></il>
+                <il><a href="../PAGES /historia.html"> historia</a></il>
+                <il><a href="../PAGES /formulario.html"> formulario</a></il>
+            </ul>
+        <nav>
+          
+    </header>
+    <main> 
+
+    <div class="contenedorimg">
+            <img src="../IMG/museo 1.jpg" class="museo">
+            <p> Museo Moderno 
+                <br>
+                Av. San Juan 350 
+                <br>
+                Abierto de lunes, miercoles, jueves, viernes de 11am a 7pm y sabados y domingo de 11am a 8pm
+                <br>
+                Martes cerrado
+            </p>
+            
+        </div>
+
+        
+        <div class="contenedorimg">
+            <img src="../IMG/museo 2.jpeg" class="museo">
+            <p> MALBA 
+                <br>
+                Av. Pres. Figueroa Alcorta 3415
+                <br>
+                Abierto de lunes, miercoles, jueves, viernes y sabados y domingo de 12am a 8pm
+                <br>
+                Martes cerrado
+            </p>
+            
+            
+        </div>
+
+
+        <div class="contenedorimg">
+            <img src="../IMG/museo 3.jpg" class="museo"> 
+             <p>Museo nacional de bellas artes 
+                <br>
+                Av. del Libertador 1473
+                <br>
+                Abierto de martes, miercoles, jueves, viernes  de 11am a 7.30pm y sabados y domingo de 10am a 7.30pm
+                <br>
+                Lunes cerrado
+             </p>
+           
+  
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        
+    <div class="contenedorfooter">
+       <h1>Contacto</h1>
+       <h2> +54 9 11 55786706</h2>
+       <h2>@dadaismo_sitio</h2>
+       <h2>dadaismo@gmail.com  </h2>
+    </div>
+    
+    <div class="contenedorfooter">
+       <h1>Sobre Nosotros </h1>
+       <h2> Somos un grupo amants de la 
+        vanguardia dadaista que quiere mostar
+        esta vanguardia a quienes les interesa </h2>
+    </div>
+
+    </footer>
+    <script>
+    function MiFuncion() 
+      /* aquí se define el ID del elemento que va a tomar la clase*/
+      {var x = document.getElementById("navegador");
+      if (x.className === "") 
+      
+         /* esta es la clase que se agrega al elemento con el*/
+         {id="navegador"
+        x.className += "mostrarmenu";} else {x.className = "";}}
+    </script> 
+</body>
