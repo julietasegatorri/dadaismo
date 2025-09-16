@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<title> RESPUESTA </title>
+<link rel="stylesheet" href="../CSS/estilos.css"> 
+</head>
+<body>
+   
+    <header>
+        <a href="../index.html"><img class="logo" src="../IMG/LOGO DADAISMO.png"/></a>
+       <a href="#" class="icono" onclick="MiFuncion()"> 
+       <i class="fa fa-bars"></i> </a>
+
+        <nav id="navegador" class="">
+
+            <il><a href="../PAGES /obras.html">obras</a></il>
+            <il><a href="../PAGES /galeria.html"> galerias</a></il>
+            <il><a href="../PAGES /libros.html"> libros</a></il>
+            <il><a href="../PAGES /historia.html"> historia</a></il>
+            <il><a href="../PAGES /formulario.html"> formulario</a></il>
+        <nav>
+
+
+
+    </header>
+    <main> 
+       
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .gracias-container {
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        a.volver {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #0a1875;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.volver:hover {
+            background-color: #0a1875;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="gracias-container">
+        <h1>¡Gracias por tu mensaje!</h1>
+        <p>Nos pondremos en contacto contigo lo antes posible.</p>
+        <a class="volver" href="../index.html">Volver al inicio</a>
+    </div>
+
+        
+    </main>
+    <footer>
+        
+        <div class="contenedorfooter">
+            <h2>CONTACTO</h2>
+            <br>
+            <h2> +54 9 11 55786706</h2>
+            <h2>@dadaismo_sitio</h2>
+            <h2>dadaismo@gmail.com  </h2>
+         </div>
+         
+         <div class="contenedorfooter">
+            <h2>SOBRE NOSOTROS </h2>
+            <br>
+            <h2> Somos un grupo amantes de la </h2>
+            <h2> vanguardia dadaista que quiere mostar </h2>
+            <h2> esta vanguardia a quienes les interesa </h2>
+         </div>
+
+    </footer>
+    <script>
+        function MiFuncion() 
+          /* aquí se define el ID del elemento que va a tomar la clase*/
+          {var x = document.getElementById("navegador");
+          if (x.className === "") 
+          
+             /* esta es la clase que se agrega al elemento con el*/
+             {id="navegador"
+            x.className += "mostrarmenu";} else {x.className = "";}}
+        </script> 
+    </body>

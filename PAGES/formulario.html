@@ -1,0 +1,76 @@
+<!doctype html>
+<link rel="stylesheet" href="../CSS/estilos.css">
+
+<html>
+<head>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../IMG/LOGO DADAISMO.png"/></a>
+        <a href="#" class="icono" onclick="MiFuncion()"> 
+        <i class="fa fa-bars"></i> </a>
+ 
+        <nav id="navegador" class="">
+
+            <ul>
+            <il><a href="../PAGES /obras.html">obras</a></il>
+            <il><a href="../PAGES /galeria.html"> galerias</a></il>
+            <il><a href="../PAGES /libros.html"> libros</a></il>
+            <il><a href="../PAGES /historia.html"> historia</a></il>
+            <il><a href="../PAGES /formulario.html"> formulario</a></il>
+            </ul>
+        <nav>
+        
+           
+    </header>
+    <main> 
+        <h1>CONTACTO</h1>
+        <form action="respuesta.html" method="get">
+            <p><label>nombre:</label> <input type="text" name="nombre" required></p>
+            <p><label>apellido:</label> <input type="text" name="apellido" required></p>
+            <p><label>email:</label> <input type="email" name="email" required></p>
+            <br>
+            <p><select name="pais">
+<option>Argentina</option>
+<option>Brasil</option>
+<option>Uruguay</option>
+<option>Chile</option>
+            </select></p> 
+            <br>
+            <p><input type="submit" value="enviar formulario"></p>
+        </form>
+<style>
+    h1 {text-align: center;}
+</style>
+    </main>
+
+    <footer>
+        
+    <div class="contenedorfooter">
+       <h1>Contacto</h1>
+       <h2> +54 9 11 55786706</h2>
+       <h2>@dadaismo_sitio</h2>
+       <h2>dadaismo@gmail.com  </h2>
+    </div>
+    
+    <div class="contenedorfooter">
+       <h1>Sobre Nosotros </h1>
+       <h2> Somos un grupo amantes de la 
+        <br>
+        vanguardia dadaista que quiere mostar
+        <br>
+        esta vanguardia a quienes les interesa </h2>
+    </div>
+
+    </footer>
+    <script>
+    function MiFuncion() 
+      /* aquí se define el ID del elemento que va a tomar la clase*/
+      {var x = document.getElementById("navegador");
+      if (x.className === "") 
+      
+         /* esta es la clase que se agrega al elemento con el*/
+         {id="navegador"
+        x.className += "mostrarmenu";} else {x.className = "";}}
+    </script> 
+</body>
